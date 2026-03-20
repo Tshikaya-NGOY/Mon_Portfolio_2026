@@ -38,19 +38,37 @@ nav ul li {
 }
 
 nav ul li a {
+    position: relative;
     text-decoration: none;
     color: #333;
-    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0%;
+    height: 3px;
+    background: #5b5be6;
+    transition: 0.3s ease;
 }
 
 nav ul li a.active {
-    color: #2d2df9;
-    border-bottom: 2px sold #5b5be6;
-    padding-bottom: 5px;
+    border-bottom: 3px solid #5b5be6;
 }
 
 nav ul li a:hover {
     color: #5b5be6;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+nav ul li a.active::after {
+    width: 100%;
 }
 
 .hero {
@@ -72,7 +90,7 @@ nav ul li a:hover {
 }
 
 .btn {
-    background: #4b4bf3;
+    background: #5b5be6;
     color: white;
     padding: 14px 28px;
     border-radius: 25px;
@@ -82,7 +100,8 @@ nav ul li a:hover {
 }
 
 .btn:hover {
-    background: #4848ea;
+    background: #4444d4;
+    transform: scale(1.05);
 }
 
 .hero-img img {
