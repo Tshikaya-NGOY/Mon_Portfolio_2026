@@ -73,9 +73,9 @@ nav ul li a.active::after {
 
 .hero {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 80px;
+    gap: 5rem;
 }
 
 .hero-text h1 {
@@ -92,11 +92,11 @@ nav ul li a.active::after {
 .btn {
     background: #5b5be6;
     color: white;
-    padding: 14px 28px;
-    border-radius: 25px;
+    padding: 15px 30px;
+    border-radius: 50px;
     text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
+    font-weight: 600;
+    margin-top: 1rem;
 }
 
 .btn:hover {
@@ -105,8 +105,8 @@ nav ul li a.active::after {
 }
 
 .hero-img img {
-    width: 260px;
-    height: 260px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     border: 8px solid #5b5be6;
     object-fit: cover;
