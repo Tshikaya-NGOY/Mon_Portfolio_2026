@@ -80,7 +80,7 @@ nav ul li a.active::after {
 
 .hero-text h1 {
     font-size: 35px;
-    color: #5b5be6;
+    color: #7257f6;
     margin-bottom: 15px;
 }
 
@@ -90,7 +90,7 @@ nav ul li a.active::after {
 }
 
 .btn {
-    background: #5b5be6;
+    background: #7257f6;
     color: white;
     padding: 15px 30px;
     border-radius: 50px;
@@ -108,18 +108,19 @@ nav ul li a.active::after {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border: 8px solid #5b5be6;
+    border: 8px solid#7257f6;
     object-fit: cover;
 }
 
 .about {
+    width: 800px;
+    margin: 6rem auto;
     text-align: center;
-    padding: 70px;
 }
 
 .about h2 {
-    color: #5b5be6;
-    font-size: 28px;
+    color: #7257f6;
+    font-size: 2.6rem;
 }
 
 .about p {
@@ -127,25 +128,26 @@ nav ul li a.active::after {
     margin: auto;
     margin-top: 20px;
     line-height: 1.6;
-    color: #393939;
+    color: #5c5c5c;
 }
 
 .line {
     width: 60px;
     height: 4px;
-    background: #5b5be6;
+    background: #7257f6;
     margin: 12px auto 30px auto;
     border-radius: 5px;
 }
 
 .skills {
-    padding: 70px;
+    width: 800px;
+    margin: 6rem auto;
     text-align: center;
 }
 
 .skills h2 {
-    color: #5b5be6;
-    font-size: 28px;
+    color: #7257f6;
+    font-size: 2.6rem;
     border-radius: 15px;
 }
 
@@ -159,7 +161,7 @@ table {
 }
 
 th {
-    background: #5b5be6;
+    background: #7257f6;
     color: white;
     padding: 10px;
 }
@@ -170,7 +172,7 @@ td {
 }
 
 footer {
-    background: #5b5be6;
+    background: #7257f6;
     color: white;
     text-align: center;
     padding: 30px;
