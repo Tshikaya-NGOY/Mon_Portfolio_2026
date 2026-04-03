@@ -18,7 +18,7 @@
             background: white;
         }
         
-        .logo {
+        h2 {
             color: #522df9;
             font-size: 20px;
             font-weight: bold;
@@ -194,11 +194,92 @@
             text-align: left;
         }
         
+        .Réalisation {
+            padding: 80px;
+            text-align: center;
+        }
+        
+        .Réalisation h2 {
+            color: #6c63ff;
+            margin-bottom: 10px;
+        }
+        
+        .line {
+            width: 60px;
+            height: 4px;
+            background: #5b5be6;
+            margin: 12px auto 30px auto;
+            border-radius: 5px;
+        }
+        
+        .grille {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+            gap: 10px;
+        }
+        
+        .image {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: left;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        
+        .image:hover {
+            transform: translateY(-5px);
+        }
+        
+        .image img {
+            width: 110%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 3px solid #6c63ff;
+        }
+        
+        .image h3 {
+            padding: 15px;
+            color: #6c63ff;
+        }
+        
+        .image p {
+            padding: 0 15px;
+            font-size: 14px;
+            color: #555;
+        }
+        
+        .tags {
+            padding: 10px 15px;
+        }
+        
+        .tags span {
+            background: #eee;
+            padding: 5px 10px;
+            border-radius: 10px;
+            margin-right: 5px;
+            font-size: 12px;
+        }
+        
+        .links {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+        }
+        
+        .links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+        }
+        
         footer {
             background: #7257f6;
             color: white;
             text-align: center;
-            padding: 3rem 0;
+            padding: 2rem 0;
             margin-top: 3rem;
         }
         
